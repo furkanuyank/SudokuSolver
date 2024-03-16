@@ -18,6 +18,7 @@ internal class Program
             new List<int>{0,0,0,0,0,9,8,0,1},
             new List<int>{0,9,0,2,0,0,0,0,3},
         };
+
         if (!IsSolvable(square))
         {
             System.Console.WriteLine("It is not solvable");
